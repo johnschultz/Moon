@@ -25,6 +25,9 @@ sass:
   sass_dir:         _sass
   style:            compressed
 
+# Custom Jekyll
+timezone: 'America/Los_Angeles'
+
 # Comments
 #disqus_shortname:   taylantatli
 
