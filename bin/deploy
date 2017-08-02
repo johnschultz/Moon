@@ -30,6 +30,8 @@ bundle exec jekyll build -b 'https://dotstar.plus'
 
 # Delete and move files.
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name '.gitignore' ! -name 'CNAME' -exec rm -rf {} \;
+sed -i s/url:.+$/url: https:\/\/dotstar.plus/ _config.yml
+
 mv _site/* .
 rm -R _site/
 
