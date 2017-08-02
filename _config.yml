@@ -43,11 +43,11 @@ timezone: 'America/Los_Angeles'
 #email:
 twitter:            Ajaxify
 facebook:           johnathon.schultz
-github-url:         https://github.com/johnschultz
+github-url:         johnschultz
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+instagram:          "johnathon_schultz"
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
@@ -66,7 +66,7 @@ keybase:           jschultz
 #hackernews:        username
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
@@ -77,3 +77,11 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+
+atom:
+  buildCommand:
+    - jekyll
+    - build
+  buildEnv:
+    JEKYLL_ENV: development
+  defaultPostDir: _drafts
