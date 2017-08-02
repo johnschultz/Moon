@@ -35,6 +35,6 @@ jobs:
           paths:
             - ./venv
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
-        
+
       # Database setup
-      - run: ./bin/deploy
+      - run: ./bin/circle-deploy
