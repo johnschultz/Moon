@@ -40,5 +40,8 @@ jobs:
             - ./venv
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
-      # Database setup
+      - run: |
+          git config --global user.email "johnathon.schultz@gmail.com"
+          git config --global user.name "Johnathon Schultz"
+
       - run: ./bin/circle-deploy
