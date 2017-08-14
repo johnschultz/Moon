@@ -1,10 +1,10 @@
-#!/usr/bin/env sh
+#!/usr/bin/bash
 
 # Run this script to deploy the app to Github Pages.
 # SHOULD ONLY BE RUN FROM CIRCLECI
 
 # Fix URL for production
-sed -i s/^url:.+$/url: https:\/\/dotstar.plus/ _config.yml
+sed -i '' 's|^url:.*$|url: https://dotstar.plus|' _config.yml
 
 # Build site
 bundle exec jekyll build
