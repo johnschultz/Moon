@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://dotstar.plus/feed.xml" rel="self" type="application/atom+xml" /><link href="http://dotstar.plus/" rel="alternate" type="text/html" /><updated>2017-08-13T22:16:37-07:00</updated><id>http://dotstar.plus/</id><title type="html">dotStar</title><subtitle>Personal website for Johnathon Schultz</subtitle><entry><title type="html">Vents</title><link href="http://dotstar.plus/Vents/" rel="alternate" type="text/html" title="Vents" /><published>2017-08-13T19:58:21-07:00</published><updated>2017-08-13T19:58:21-07:00</updated><id>http://dotstar.plus/Vents</id><content type="html" xml:base="http://dotstar.plus/Vents/">&lt;p&gt;This weekend has been quite stressful. Quite a bit of energy has been vented. Mainly through my migraines in my head. Painfully.&lt;/p&gt;
+
+&lt;p&gt;It started on Thursday morning, when Jasper discovered a weakness in the in the security system preventing access to “outside”. Namely, the door latch was broken and with a little pressure he was able to open the door and escape. My only notice was when I woke up in the morning to a freezing apartment and no cat.&lt;/p&gt;
+
+&lt;p&gt;Jasper did eventually come back later Thursday, but it was quite stressful experience. Friday I had a bit of headache, Saturday I had a migraine on the left side of my head in the evening, and Sunday I had the same thing on the other side of my head. I only started to feel better once I took my strong medication and then puked. The pain had been so bad that I went to bed at 11AM and skipped lunch – thus the bad reaction with the medication.&lt;/p&gt;
+
+&lt;p&gt;On the plus side, Rick and Morty is tonight. We get to meet &lt;strong&gt;&lt;em&gt;The Vindicators!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><category term="personal" /><category term="e/n" /><summary type="html">This weekend has been quite stressful. Quite a bit of energy has been vented. Mainly through my migraines in my head. Painfully.</summary></entry><entry><title type="html">Ruby Gems are Frustrating</title><link href="http://dotstar.plus/rubygemsarefrustrating/" rel="alternate" type="text/html" title="Ruby Gems are Frustrating" /><published>2017-08-01T13:11:16-07:00</published><updated>2017-08-01T13:11:16-07:00</updated><id>http://dotstar.plus/rubygemsarefrustrating</id><content type="html" xml:base="http://dotstar.plus/rubygemsarefrustrating/">&lt;p&gt;Like most things I do, I’ve decided to make this little blog adventure more
+complicated than it needs to be. I’m trying out the &lt;code class=&quot;highlighter-rouge&quot;&gt;atom&lt;/code&gt; text editor (instead
+of my usual love, VIM). I do have VIM-mode installed, so I suppose I’m cheating
+a little bit.&lt;/p&gt;
+
+&lt;p&gt;There’s a nice &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; plugin for &lt;code class=&quot;highlighter-rouge&quot;&gt;atom&lt;/code&gt;, but I can’t get it to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll build&lt;/code&gt;
+properly, and I can’t find the console error output so I’m not sure how to debug
+the problem. I think the issue is stemming from the fact that it’s not invoking
+&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; with &lt;code class=&quot;highlighter-rouge&quot;&gt;bundler&lt;/code&gt; so there are some dependency issues. Not to be a Python
+elitist, but is this how it is in Ruby? I’m new to the red world, and I’m a bit
+surprised this is a problem; I never had an issue like this with Python virtualenv
+pythons and system pythons.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update:&lt;/em&gt; Hours later I got the site to build from the system ruby by deleting
+my Gemfile.lock. I don’t even. It’s just part of the learning process I suppose.&lt;/p&gt;</content><author><name></name></author><category term="ruby" /><category term="jekyll" /><category term="atom" /><summary type="html">Like most things I do, I’ve decided to make this little blog adventure more complicated than it needs to be. I’m trying out the atom text editor (instead of my usual love, VIM). I do have VIM-mode installed, so I suppose I’m cheating a little bit.</summary></entry></feed>
