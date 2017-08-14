@@ -3,10 +3,13 @@
 # Run this script to deploy the app to Github Pages.
 # SHOULD ONLY BE RUN FROM CIRCLECI
 
+# Fix URL for production
+sed -i s/^url:.+$/url: https:\/\/dotstar.plus/ _config.yml
+
+# Build site
 bundle exec jekyll build
 
 # Delete and move files.
-sed -i s/^url:.+$/url: https:\/\/dotstar.plus/ _config.yml
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name '.gitignore' ! -name 'CNAME' -exec rm -rf {} \;
 mv _site/* .
 rm -R _site/
