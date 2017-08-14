@@ -3,7 +3,6 @@ layout: post
 title: "Ruby Gems are Frustrating"
 date: "2017-08-01 13:11:16 -0700"
 tags: ruby jekyll atom
-category: projects
 ---
 
 Like most things I do, I've decided to make this little blog adventure more
